@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 1s ease;
+  }
+  
+  .slider img {
+    width: 100%;
+  }
+  
+  .btn-prev, .btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 14, 140, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+  }
+  
+  .btn-prev {
+    left: 10px;
+  }
+  
+  .btn-next {
+    right: 10px;
+  }
+  
+  
+  
+  
